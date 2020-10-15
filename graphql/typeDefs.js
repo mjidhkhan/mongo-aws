@@ -1,6 +1,5 @@
 const { gql } = require('apollo-server');
 
-
 module.exports = gql`
     type Post{
         id: ID!,
@@ -12,4 +11,4 @@ module.exports = gql`
     type Query {
         getPosts: [Post]
     }
-`;
+`   ;
