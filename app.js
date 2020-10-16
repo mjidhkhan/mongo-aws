@@ -17,7 +17,7 @@ mongoose
             useUnifiedTopology: true
         })
     .then(() => {
-        console.log(`MongoDb connected ${db.parsed.MYDB}`)
+        console.log(`MongoDb connected `)
         return server.listen({ port: 5000 })
     })
         .then((res) => {
